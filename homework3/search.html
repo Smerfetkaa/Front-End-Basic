@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div align="center">
+      <h2>Фільтри пошуку авто</h2>
+    </div>
+    <div align="center" style="background-color: rgb(243, 235, 225)">
+      <form>
+        <table>
+          <tbody>
+            <tr>
+              <td><label>Тип кузову</label></td>
+              <td>
+                <select>
+                  <option>всі</option>
+                  <option>седан</option>
+                  <option>комбі</option>
+                  <option>хетчбек</option>
+                  <option>позашляховик</option>
+                  <option>купе</option>
+                  <option>пікап</option>
+                </select>
+              </td>
+              <td><label>Марка</label></td>
+              <td>
+                <select>
+                  <option>всі</option>
+                  <option>AUDI</option>
+                  <option>BMW</option>
+                  <option>Chevrolet</option>
+                  <option>Citroen</option>
+                  <option>Fiat</option>
+                  <option>Ford</option>
+                  <option>Honda</option>
+                  <option>Hyundai</option>
+                  <option>Kia</option>
+                  <option>Mazda</option>
+                  <option>Mercedes</option>
+                  <option>Peugeot</option>
+                  <option>Skoda</option>
+                  <option>Toyota</option>
+                </select>
+              </td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><label>Країна виробник</label></td>
+              <td>
+                <select>
+                  <option>всі</option>
+                  <option>Австрія</option>
+                  <option>Словаччина</option>
+                  <option>Німеччина</option>
+                  <option>Китай</option>
+                  <option>Україна</option>
+                  <option>Південна Корея</option>
+                  <option>Японія</option>
+                </select>
+              </td>
+              <td><label>Ціна</label></td>
+              <td><input type="text" placeholder="від, $" /></td>
+              <td><label>-</label></td>
+              <td><input type="text" placeholder="до, $" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Тип палива</label></td>
+              <td>
+                <select>
+                  <option>всі</option>
+                  <option>Бензин</option>
+                  <option>Дизель</option>
+                  <option>Бензин/Газ</option>
+                  <option>Електро</option>
+                  <option>Гібрид</option>
+                </select>
+              </td>
+              <td><label>Рік випуску</label></td>
+
+              <td>
+                <input type="number" min="1985" max="2023" placeholder="від" />
+              </td>
+              <td><label>-</label></td>
+              <td>
+                <input type="number" min="1985" max="2023" placeholder="до" />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Коробка передач</label></td>
+              <td>
+                <select>
+                  <option>всі</option>
+                  <option>Механіка</option>
+                  <option>Автомат</option>
+                </select>
+              </td>
+              <td><label>Колір</label></td>
+              <td>
+                <input type="color" />
+              </td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><label>Стан</label></td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" />Нова</td>
+                      <td><input type="checkbox" />Б/У не вимагає ремонту</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" />Вимагає ремонту</td>
+                      <td><input type="checkbox" />На запчастини</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" />Не ромитнена</td>
+                      <td><input type="checkbox" />В кредиті</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td><label>Комфорт</label></td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" />Преміум клас</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" />Кондиціонер</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" />Круїз-контроль</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>&nbsp;</td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" />Шкіра</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" />Клімат-контроль</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" />Люк</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <button type="reset">Очистити фільтри</button>
+        <button type="button">Пошук</button>
+      </form>
+    </div>
+  </body>
+</html>
